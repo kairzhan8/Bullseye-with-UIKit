@@ -15,10 +15,11 @@
 		55649AFA24682F2800B2AA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55649AF824682F2800B2AA15 /* LaunchScreen.storyboard */; };
 		55649B222468BE0A00B2AA15 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55649B212468BE0A00B2AA15 /* AboutViewController.swift */; };
 		55649B242468C26200B2AA15 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55649B232468C26200B2AA15 /* AuthorViewController.swift */; };
+		55649B26246A09DA00B2AA15 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 55649B25246A09D900B2AA15 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55649AEA24682F2100B2AA15 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55649AEA24682F2100B2AA15 /* Bull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55649AED24682F2100B2AA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55649AEF24682F2100B2AA15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		55649AF124682F2100B2AA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		55649AFB24682F2800B2AA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55649B212468BE0A00B2AA15 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		55649B232468C26200B2AA15 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
+		55649B25246A09D900B2AA15 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 		55649AEB24682F2100B2AA15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55649AEA24682F2100B2AA15 /* BullsEye.app */,
+				55649AEA24682F2100B2AA15 /* Bull's Eye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +71,7 @@
 				55649AF624682F2800B2AA15 /* Assets.xcassets */,
 				55649AF824682F2800B2AA15 /* LaunchScreen.storyboard */,
 				55649AFB24682F2800B2AA15 /* Info.plist */,
+				55649B25246A09D900B2AA15 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -90,7 +93,7 @@
 			);
 			name = BullsEye;
 			productName = BullsEye;
-			productReference = 55649AEA24682F2100B2AA15 /* BullsEye.app */;
+			productReference = 55649AEA24682F2100B2AA15 /* Bull's Eye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55649AFA24682F2800B2AA15 /* LaunchScreen.storyboard in Resources */,
+				55649B26246A09DA00B2AA15 /* BullsEye.html in Resources */,
 				55649AF724682F2800B2AA15 /* Assets.xcassets in Resources */,
 				55649AF524682F2100B2AA15 /* Main.storyboard in Resources */,
 			);
@@ -300,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kairzhan.BullsEye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kairzhan.BullsEye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bull's Eye";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
